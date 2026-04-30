@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"id": "zhun0512.Head_Restoration",
 	"name": "Head Restoration",
 	"description": "Restores Agent 47's head from HITMAN (2016) and HITMAN 2 (2018) and Alpha build (2015).",
@@ -12,7 +12,11 @@
 			"name": "2016",
 			"tooltip": "Using shader from HITMAN 2, resulting in a look similar to HITMAN (2016).\n\n[Season 1] were shown in the preview.",
 			"type": "select",
-			"contentFolders": ["modcontent/models/2016", "modcontent/shaders/agent47_eye", "modcontent/shaders/agent47_head_02"],
+			"contentFolders": [
+				"modcontent/models/2016",
+				"modcontent/shaders/agent47_eye",
+				"modcontent/shaders/agent47_head_02"
+			],
 			"image": "frameworkcontent/2016.jpg"
 		},
 		{
@@ -20,7 +24,11 @@
 			"name": "2016 (Eyes Variant)",
 			"tooltip": "Using shader from HITMAN 2, resulting in a look similar to HITMAN (2016).\n\n[Season 1] were shown in the preview.",
 			"type": "select",
-			"contentFolders": ["modcontent/models/2016", "modcontent/shaders/male_reg_head_47_s3", "modcontent/shaders/agent47_head_02"],
+			"contentFolders": [
+				"modcontent/models/2016",
+				"modcontent/shaders/male_reg_head_47_s3",
+				"modcontent/shaders/agent47_head_02"
+			],
 			"image": "frameworkcontent/2016_var.jpg"
 		},
 		{
@@ -44,7 +52,11 @@
 			"name": "2018",
 			"tooltip": "Using shader from HITMAN 2, Fully restores HITMAN 2 head from left over files.\n\n[Season 2] were shown in the preview.",
 			"type": "select",
-			"contentFolders": ["modcontent/models/2018", "modcontent/shaders/male_reg_head_47_s3", "modcontent/shaders/agent47_head_02"],
+			"contentFolders": [
+				"modcontent/models/2018",
+				"modcontent/shaders/male_reg_head_47_s3",
+				"modcontent/shaders/agent47_head_02"
+			],
 			"image": "frameworkcontent/2018.jpg"
 		},
 		{
@@ -60,7 +72,11 @@
 			"name": "H2 2015",
 			"tooltip": "Using shader from HITMAN 2, resulting in a reduced highlighted look.\n\n[CloseAlpha S2] were shown in the preview.",
 			"type": "select",
-			"contentFolders": ["modcontent/models/2015", "modcontent/shaders/agent47_eye", "modcontent/shaders/agent47_head_02"],
+			"contentFolders": [
+				"modcontent/models/2015",
+				"modcontent/shaders/agent47_eye",
+				"modcontent/shaders/agent47_head_02"
+			],
 			"image": "frameworkcontent/h22015.jpg"
 		},
 		{
@@ -76,7 +92,11 @@
 			"name": "Season 1",
 			"tooltip": "Default HITMAN (2016) textures.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s1", "modcontent/textures/normal_s1", "modcontent/textures/specular_s1"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s1",
+				"modcontent/textures/normal_s1",
+				"modcontent/textures/specular_s1"
+			],
 			"image": "frameworkcontent/s1.jpg"
 		},
 		{
@@ -84,7 +104,11 @@
 			"name": "Season 1+",
 			"tooltip": "HITMAN (2016) textures with HITMAN 3 micro details.\n(e.g. blood veins, skin highlights)",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s1", "modcontent/textures/normal_s1_h3detail", "modcontent/textures/specular_s1_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s1",
+				"modcontent/textures/normal_s1_h3detail",
+				"modcontent/textures/specular_s1_h3detail"
+			],
 			"image": "frameworkcontent/s1_plus.jpg"
 		},
 		{
@@ -92,7 +116,11 @@
 			"name": "Season 1 Bald",
 			"tooltip": "Default HITMAN (2016) textures setup, removed barcode.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s1_bald", "modcontent/textures/normal_s1", "modcontent/textures/specular_s1"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s1_bald",
+				"modcontent/textures/normal_s1",
+				"modcontent/textures/specular_s1"
+			],
 			"image": "frameworkcontent/s1_bald.jpg"
 		},
 		{
@@ -100,23 +128,35 @@
 			"name": "Season 1 Bald+",
 			"tooltip": "HITMAN (2016) textures with HITMAN 3 micro details,\nand removed barcode.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s1_bald", "modcontent/textures/normal_s1_h3detail", "modcontent/textures/specular_s1_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s1_bald",
+				"modcontent/textures/normal_s1_h3detail",
+				"modcontent/textures/specular_s1_h3detail"
+			],
 			"image": "frameworkcontent/s1_bald_plus.jpg"
 		},
-		{	
+		{
 			"group": "Textures Preferences",
 			"name": "Season 1 Numbered",
 			"tooltip": "Default HITMAN (2016) textures setup, replaced with numbered barcode [640509-040147].\nSpecial thanks to Duckilous for the numbered barcode texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s1_numbered", "modcontent/textures/normal_s1", "modcontent/textures/specular_s1"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s1_numbered",
+				"modcontent/textures/normal_s1",
+				"modcontent/textures/specular_s1"
+			],
 			"image": "frameworkcontent/s1_num.jpg"
 		},
-		{	
+		{
 			"group": "Textures Preferences",
 			"name": "Season 1 Numbered+",
 			"tooltip": "HITMAN (2016) textures with HITMAN 3 micro details, and replaced with numbered barcode [640509-040147].\nSpecial thanks to Duckilous for the numbered barcode texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s1_numbered", "modcontent/textures/normal_s1_h3detail", "modcontent/textures/specular_s1_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s1_numbered",
+				"modcontent/textures/normal_s1_h3detail",
+				"modcontent/textures/specular_s1_h3detail"
+			],
 			"image": "frameworkcontent/s1_num_plus.jpg"
 		},
 		{
@@ -124,7 +164,11 @@
 			"name": "Season 2",
 			"tooltip": "Default HITMAN 2 textures.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s2", "modcontent/textures/normal_s2", "modcontent/textures/specular_s2"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s2",
+				"modcontent/textures/normal_s2",
+				"modcontent/textures/specular_s2"
+			],
 			"image": "frameworkcontent/s2.jpg"
 		},
 		{
@@ -132,7 +176,11 @@
 			"name": "Season 2+",
 			"tooltip": "HITMAN 2 textures with HITMAN 3 micro details.\n(e.g. blood veins, skin highlights)",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s2", "modcontent/textures/normal_s2_h3detail", "modcontent/textures/specular_s2_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s2",
+				"modcontent/textures/normal_s2_h3detail",
+				"modcontent/textures/specular_s2_h3detail"
+			],
 			"image": "frameworkcontent/s2_plus.jpg"
 		},
 		{
@@ -140,7 +188,11 @@
 			"name": "Season 2 Bald",
 			"tooltip": "Default HITMAN 2 textures setup, removed barcode.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s2_bald", "modcontent/textures/normal_s2", "modcontent/textures/specular_s2"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s2_bald",
+				"modcontent/textures/normal_s2",
+				"modcontent/textures/specular_s2"
+			],
 			"image": "frameworkcontent/s2_bald.jpg"
 		},
 		{
@@ -148,7 +200,11 @@
 			"name": "Season 2 Bald+",
 			"tooltip": "HITMAN 2 textures with HITMAN 3 micro details.\nand removed barcode.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s2_bald", "modcontent/textures/normal_s2_h3detail", "modcontent/textures/specular_s2_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s2_bald",
+				"modcontent/textures/normal_s2_h3detail",
+				"modcontent/textures/specular_s2_h3detail"
+			],
 			"image": "frameworkcontent/s2_bald_plus.jpg"
 		},
 		{
@@ -156,7 +212,11 @@
 			"name": "Season 2 Numbered",
 			"tooltip": "Default HITMAN 2 textures setup, replaced with numbered barcode [640509-040147].\nSpecial thanks to Duckilous for the numbered barcode texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s2_numbered", "modcontent/textures/normal_s2", "modcontent/textures/specular_s2"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s2_numbered",
+				"modcontent/textures/normal_s2",
+				"modcontent/textures/specular_s2"
+			],
 			"image": "frameworkcontent/s2_num.jpg"
 		},
 		{
@@ -164,7 +224,11 @@
 			"name": "Season 2 Numbered+",
 			"tooltip": "HITMAN 2 textures with HITMAN 3 micro details, and replaced with numbered barcode [640509-040147].\nSpecial thanks to Duckilous for the numbered barcode texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_s2_numbered", "modcontent/textures/normal_s2_h3detail", "modcontent/textures/specular_s2_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_s2_numbered",
+				"modcontent/textures/normal_s2_h3detail",
+				"modcontent/textures/specular_s2_h3detail"
+			],
 			"image": "frameworkcontent/s2_num_plus.jpg"
 		},
 		{
@@ -172,7 +236,11 @@
 			"name": "Closed Alpha S1",
 			"tooltip": "Closed alpha diffuse texture, pairing with default HITMAN (2016) textures setup.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca", "modcontent/textures/normal_s1", "modcontent/textures/specular_s1"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca",
+				"modcontent/textures/normal_s1",
+				"modcontent/textures/specular_s1"
+			],
 			"image": "frameworkcontent/ca_s1.jpg"
 		},
 		{
@@ -180,7 +248,11 @@
 			"name": "Closed Alpha S1+",
 			"tooltip": "Closed alpha diffuse texture, pairing HITMAN (2016) textures, added HITMAN 3 micro details.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca", "modcontent/textures/normal_s1_h3detail", "modcontent/textures/specular_s1_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca",
+				"modcontent/textures/normal_s1_h3detail",
+				"modcontent/textures/specular_s1_h3detail"
+			],
 			"image": "frameworkcontent/ca_s1_plus.jpg"
 		},
 		{
@@ -188,7 +260,11 @@
 			"name": "Closed Alpha S1 Bald",
 			"tooltip": "Closed alpha diffuse texture, pairing with default HITMAN (2016) textures setup, removed barcode.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca_bald", "modcontent/textures/normal_s1", "modcontent/textures/specular_s1"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca_bald",
+				"modcontent/textures/normal_s1",
+				"modcontent/textures/specular_s1"
+			],
 			"image": "frameworkcontent/ca_s1_bald.jpg"
 		},
 		{
@@ -196,7 +272,11 @@
 			"name": "Closed Alpha S1 Bald+",
 			"tooltip": "Closed alpha diffuse texture, pairing HITMAN (2016) textures, added HITMAN 3 micro details, and removed barcode.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca_bald", "modcontent/textures/normal_s1_h3detail", "modcontent/textures/specular_s1_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca_bald",
+				"modcontent/textures/normal_s1_h3detail",
+				"modcontent/textures/specular_s1_h3detail"
+			],
 			"image": "frameworkcontent/ca_s1_bald_plus.jpg"
 		},
 		{
@@ -204,7 +284,11 @@
 			"name": "Closed Alpha S1 Numbered",
 			"tooltip": "Closed alpha diffuse texture, pairing with default HITMAN (2016) textures setup, replaced with numbered barcode [640509-040147].\nSpecial thanks to musicalmushr00m for 2015 alpha texture.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca_numbered", "modcontent/textures/normal_s1", "modcontent/textures/specular_s1"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca_numbered",
+				"modcontent/textures/normal_s1",
+				"modcontent/textures/specular_s1"
+			],
 			"image": "frameworkcontent/ca_s1.jpg"
 		},
 		{
@@ -212,7 +296,11 @@
 			"name": "Closed Alpha S1 Numbered+",
 			"tooltip": "Closed alpha diffuse texture, pairing with HITMAN (2016) textures, added HITMAN 3 micro details, and replaced with numbered barcode [640509-040147].\nSpecial thanks to musicalmushr00m for 2015 alpha texture.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca_numbered", "modcontent/textures/normal_s1_h3detail", "modcontent/textures/specular_s1_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca_numbered",
+				"modcontent/textures/normal_s1_h3detail",
+				"modcontent/textures/specular_s1_h3detail"
+			],
 			"image": "frameworkcontent/ca_s1_plus.jpg"
 		},
 		{
@@ -220,7 +308,11 @@
 			"name": "Closed Alpha S2",
 			"tooltip": "Closed alpha diffuse texture, pairing with HITMAN 2 textures.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca", "modcontent/textures/normal_s2", "modcontent/textures/specular_s2"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca",
+				"modcontent/textures/normal_s2",
+				"modcontent/textures/specular_s2"
+			],
 			"image": "frameworkcontent/ca_s2.jpg"
 		},
 		{
@@ -228,7 +320,11 @@
 			"name": "Closed Alpha S2+",
 			"tooltip": "Closed alpha diffuse texture, pairing with HITMAN 2 textures, added HITMAN 3 micro details.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca", "modcontent/textures/normal_s2_h3detail", "modcontent/textures/specular_s2_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca",
+				"modcontent/textures/normal_s2_h3detail",
+				"modcontent/textures/specular_s2_h3detail"
+			],
 			"image": "frameworkcontent/ca_s2_plus.jpg"
 		},
 		{
@@ -236,7 +332,11 @@
 			"name": "Closed Alpha S2 Bald",
 			"tooltip": "Closed alpha diffuse texture, pairing with HITMAN 2 textures, removed barcode.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca_bald", "modcontent/textures/normal_s2", "modcontent/textures/specular_s2"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca_bald",
+				"modcontent/textures/normal_s2",
+				"modcontent/textures/specular_s2"
+			],
 			"image": "frameworkcontent/ca_s2_bald.jpg"
 		},
 		{
@@ -244,7 +344,11 @@
 			"name": "Closed Alpha S2 Bald+",
 			"tooltip": "Closed alpha diffuse texture, pairing with HITMAN 2 textures, added HITMAN 3 micro details, and removed barcode.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca_bald", "modcontent/textures/normal_s2_h3detail", "modcontent/textures/specular_s2_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca_bald",
+				"modcontent/textures/normal_s2_h3detail",
+				"modcontent/textures/specular_s2_h3detail"
+			],
 			"image": "frameworkcontent/ca_s2_bald_plus.jpg"
 		},
 		{
@@ -252,7 +356,11 @@
 			"name": "Closed Alpha S2 Numbered",
 			"tooltip": "Closed alpha diffuse texture, pairing with HITMAN 2 textures, replaced with numbered barcode [640509-040147].\nSpecial thanks to musicalmushr00m for 2015 alpha texture.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca_numbered", "modcontent/textures/normal_s2", "modcontent/textures/specular_s2"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca_numbered",
+				"modcontent/textures/normal_s2",
+				"modcontent/textures/specular_s2"
+			],
 			"image": "frameworkcontent/ca_s2.jpg"
 		},
 		{
@@ -260,10 +368,14 @@
 			"name": "Closed Alpha S2 Numbered+",
 			"tooltip": "Closed alpha diffuse texture, pairing with HITMAN 2 textures, added HITMAN 3 micro details, and replaced with numbered barcode [640509-040147].\nSpecial thanks to musicalmushr00m for 2015 alpha texture.\nSpecial thanks to musicalmushr00m for 2015 alpha texture.",
 			"type": "select",
-			"contentFolders": ["modcontent/textures/diffuse_ca_numbered", "modcontent/textures/normal_s2_h3detail", "modcontent/textures/specular_s2_h3detail"],
+			"contentFolders": [
+				"modcontent/textures/diffuse_ca_numbered",
+				"modcontent/textures/normal_s2_h3detail",
+				"modcontent/textures/specular_s2_h3detail"
+			],
 			"image": "frameworkcontent/ca_s2_plus.jpg"
 		},
-		{	
+		{
 			"group": "UI Preferences",
 			"name": "None",
 			"tooltip": "No changes were being made.",
@@ -278,7 +390,7 @@
 			"blobsFolders": ["modcontent/blobs/ui"],
 			"image": "frameworkcontent/ui.jpg"
 		},
-		{	
+		{
 			"group": "Wardrobe Preferences",
 			"name": "None",
 			"tooltip": "No changes were being made.",

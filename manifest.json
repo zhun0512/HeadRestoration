@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "2.7.4",
 	"id": "zhun0512.Head_Restoration",
-	"name": "Head Restoration (v2.7.4)",
+	"name": "Head Restoration (v2.7.5)",
 	"description": "Restores Agent 47's head from HITMAN (2016) and HITMAN 2 (2018) and Alpha build (2015).",
 	"authors": ["zhun0512", "MLuka47", "musicalmushr00m", "Duckilous"],
 	"frameworkVersion": "2.33.35",

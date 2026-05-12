@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "2.7.7",
 	"id": "zhun0512.Head_Restoration",
-	"name": "Head Restoration (v2.7.7)",
+	"name": "Head Restoration (v2.7.8)",
 	"description": "Restores Agent 47's head from HITMAN (2016) and HITMAN 2 (2018) and Alpha build (2015).",
 	"authors": ["zhun0512", "MLuka47", "musicalmushr00m", "Duckilous"],
 	"frameworkVersion": "2.33.35",
@@ -37,7 +37,10 @@
 			"name": "H3 2016",
 			"tooltip": "Using shader from HITMAN 3, resulting in a more advanced look.\n\n[Season 1+] were shown in the preview.",
 			"type": "select",
-			"contentFolders": ["modcontent/models/2016", "modcontent/shaders/agent47_eye"],
+			"contentFolders": [
+				"modcontent/models/2016",
+				"modcontent/shaders/agent47_eye"
+			],
 			"image": "frameworkcontent/h32016.jpg"
 		},
 		{
@@ -45,7 +48,10 @@
 			"name": "H3 2016 (Eyes Variant)",
 			"tooltip": "Using shader from HITMAN 3, resulting in a more advanced look.\n\n[Season 1+] were shown in the preview.",
 			"type": "select",
-			"contentFolders": ["modcontent/models/2016", "modcontent/shaders/male_reg_head_47_s3"],
+			"contentFolders": [
+				"modcontent/models/2016",
+				"modcontent/shaders/male_reg_head_47_s3"
+			],
 			"image": "frameworkcontent/h32016_var.jpg"
 		},
 		{
@@ -65,7 +71,10 @@
 			"name": "H3 2018",
 			"tooltip": "Using shader from HITMAN 3, resulting in a more advanced look.",
 			"type": "select",
-			"contentFolders": ["modcontent/models/2018", "modcontent/shaders/male_reg_head_47_s3"],
+			"contentFolders": [
+				"modcontent/models/2018",
+				"modcontent/shaders/male_reg_head_47_s3"
+			],
 			"image": "frameworkcontent/h32018.jpg"
 		},
 		{
@@ -85,7 +94,10 @@
 			"name": "H3 2015",
 			"tooltip": "Using shader from HITMAN 3, resulting in a advanced lighting.\n\n[CloseAlpha S1] were shown in the preview.",
 			"type": "select",
-			"contentFolders": ["modcontent/models/2015", "modcontent/shaders/agent47_eye"],
+			"contentFolders": [
+				"modcontent/models/2015",
+				"modcontent/shaders/agent47_eye"
+			],
 			"image": "frameworkcontent/h32015.jpg"
 		},
 		{

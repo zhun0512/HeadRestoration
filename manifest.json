@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "2.7.8",
 	"id": "zhun0512.Head_Restoration",
-	"name": "Head Restoration (v2.7.8)",
+	"name": "Head Restoration (v2.7.9)",
 	"description": "Restores Agent 47's head from HITMAN (2016) and HITMAN 2 (2018) and Alpha build (2015).",
 	"authors": ["zhun0512", "MLuka47", "musicalmushr00m", "Duckilous"],
 	"frameworkVersion": "2.33.35",
@@ -400,16 +400,16 @@
 		},
 		{
 			"group": "Wardrobe Preferences",
-			"name": "Grayish Blue Background",
-			"tooltip": "HITMAN (2016) wardrobe images with HITMAN 3 background.",
+			"name": "HITMAN 3",
+			"tooltip": "HITMAN 3 Style wardrobe images.",
 			"type": "select",
 			"blobsFolders": ["modcontent/blobs/ui_h3_wardrobe"],
 			"image": "frameworkcontent/ui_h3_wardrobe.jpg"
 		},
 		{
 			"group": "Wardrobe Preferences",
-			"name": "Gradient Background",
-			"tooltip": "HITMAN (2016) wardrobe images.",
+			"name": "HITMAN (2016)",
+			"tooltip": "HITMAN (2016) Style wardrobe images.",
 			"type": "select",
 			"blobsFolders": ["modcontent/blobs/ui_hm2016_wardrobe"],
 			"image": "frameworkcontent/ui_hm2016_wardrobe.jpg"
